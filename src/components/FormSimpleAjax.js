@@ -9,7 +9,7 @@ class Form extends React.Component {
   static defaultProps = {
     name: 'Współpraca',
     subject: '', // optional subject of the notification email
-    action: '',
+    action: 'mailto:${\'szymon.koniarek@gmail.com\'}',
     successMessage: 'Dzięki za wiadomość, odpowiem wkrótce',
     errorMessage:
       'Wystąpił problem, twoja wiadomość nie została wysłana, proszę o kontakt mailowy - tedoendoce@gmail.com'
@@ -59,15 +59,15 @@ class Form extends React.Component {
     return (
       <Fragment>
         <Helmet>
-          <script src="https://www.google.com/recaptcha/api.js" />
+	        <script src={`https://www.google.com/recaptcha/api.js`} async defer></script>
         </Helmet>
         <form
           className="Współpraca"
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
-          data-netlify=""
-          netlify-recaptcha=""
+          data-netlify="true"
+          netlify-recaptcha="6LdoepoUAAAAAGXthTzKh6MpOOAjWAjY3R4sZFXo"
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>

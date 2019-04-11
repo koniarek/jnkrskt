@@ -3,7 +3,6 @@ import _get from 'lodash/get'
 import _format from 'date-fns/format'
 import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
-
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
@@ -59,7 +58,6 @@ export const SinglePostTemplate = ({
               {title}
             </h1>
           )}
-
           <div className="SinglePost--InnerContent">
             <Content source={body} />
           </div>

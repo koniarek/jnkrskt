@@ -11,7 +11,7 @@ media_library:
     multiple: false
     tabs: 'file camera url facebook gdrive'
     effects: 'crop,rotate,enhance,grayscale'
-    imageShrink: '2000x2000'
+    imageShrink: '2400x2400'
     previewStep: true
     clearable: true
 
@@ -285,6 +285,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: content/posts
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true # Allow users to create new documents in this collection
+    delate: true
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: SinglePost }
       - { label: Title, name: title, widget: string }
@@ -339,7 +340,9 @@ collections: # A list of collections the CMS should be able to edit
       preview: false
     folder: content/postCategories
     slug: '{{slug}}'
-    create: true # Allow users to create new documents in this collection
+    create: true
+     delate: true
+     # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: BlogIndex }
       - { label: Title, name: title, widget: string }
