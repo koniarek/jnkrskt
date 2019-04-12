@@ -1,10 +1,9 @@
-.Logo {
+.Logo2 {
     display: flex;
+    align-items: right;
     background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: white;
     height: 4rem;
     width: 4rem;
-    align-items: right;
     justify-content: center;
 }

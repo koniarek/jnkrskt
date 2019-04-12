@@ -55,7 +55,7 @@ class Image extends React.Component {
     let {
       background,
       backgroundSize = 'cover',
-      resolutions = '2000x590',
+      resolutions = '1000x',
       className = '',
       src,
       secSet = '',

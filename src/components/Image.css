@@ -1,9 +1,11 @@
 .Image {
   display: block;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .BackgroundImage {
+  max-width: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -15,6 +17,7 @@
 }
 
 .BackgroundImage .Image {
+  max-width: 100%;
   top: 0;
   left: 0;
   right: 0;
@@ -22,10 +25,12 @@
 }
 
 .LazyImage {
+  max-width: 100%;
   opacity: 0;
   transition: ease all 0.3s;
 }
 
 .LazyImage.faded {
+  max-width: 100%;
   opacity: 1;
 }
