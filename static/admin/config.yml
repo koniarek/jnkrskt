@@ -341,7 +341,6 @@ collections: # A list of collections the CMS should be able to edit
     folder: content/postCategories
     slug: '{{slug}}'
     create: true
-     delate: true
      # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: BlogIndex }
