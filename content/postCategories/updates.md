@@ -2,7 +2,7 @@
 template: BlogIndex
 title: JNKEQT
 subtitle: Junkie Equipment
-featuredImage: 'https://ucarecdn.com/6f351668-a11a-452c-8caa-50873b6894e7/'
+featuredImage: 'https://ucarecdn.com/91c41e37-372e-49ea-a0db-e65dabeae6d6/'
 meta:
   description: Junkie Equipment
   title: JNKEQT
