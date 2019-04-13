@@ -2,7 +2,7 @@
 template: BlogIndex
 title: JNKWR
 subtitle: JunkieWear
-featuredImage: 'https://ucarecdn.com/3373d311-9769-44eb-b2f7-380d9090045d/'
+featuredImage: 'https://ucarecdn.com/fd988120-0917-4f35-894c-205e5272bc25/'
 meta:
   description: JunkieWear
   noindex: false
