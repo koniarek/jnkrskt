@@ -4,6 +4,7 @@ import './cms-utils'
 
 import { HomePageTemplate } from '../templates/HomePage'
 import { ComponentsPageTemplate } from '../templates/ComponentsPage'
+import { ComponentsPage2Template } from '../templates/ComponentsPage2'
 import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
@@ -26,15 +27,18 @@ CMS.registerPreviewTemplate('home-page', ({ entry }) => (
 CMS.registerPreviewTemplate('components-page', ({ entry }) => (
   <ComponentsPageTemplate {...entry.toJS().data} />
 ))
+CMS.registerPreviewTemplate('jnkrap-page', ({ entry }) => (
+	<ComponentsPage2Template {...entry.toJS().data} />
+))
 CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
   <ContactPageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('infoPages', ({ entry }) => (
+CMS.registerPreviewTemplate('SektaPages', ({ entry }) => (
   <DefaultPageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
+CMS.registerPreviewTemplate('jnkwr-page', ({ entry }) => (
   <BlogIndexTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('posts', ({ entry }) => (
+CMS.registerPreviewTemplate('products', ({ entry }) => (
   <SinglePostTemplate {...entry.toJS().data} />
 ))

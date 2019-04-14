@@ -1,0 +1,10 @@
+.Socials {
+    font-family: "Trebuchet MS";
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    display: block;
+}
+.Socials.a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}

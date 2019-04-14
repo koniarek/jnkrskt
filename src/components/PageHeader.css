@@ -20,6 +20,7 @@
 .PageHeader--Subtitle {
   font-weight: 400;
   font-size: 1.8rem;
+  color: transparent;
 }
 
 .PageHeader .container {

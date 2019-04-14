@@ -8,9 +8,12 @@
     "url": "https://github.com/koniarek/jnkrskt"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
     "@reach/router": "^1.2.1",
     "date-fns": "^1.30.1",
     "dom-form-serializer": "^1.0.7",
+    "emotion-theming": "^10.0.10",
     "flickity": "^2.2.0",
     "gatsby": "^2.3.15",
     "gatsby-image": "^2.0.27",
@@ -43,6 +46,8 @@
     "qs": "^6.7.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-emotion": "^10.0.0",
+    "react-emotions": "^1.0.1",
     "react-feather": "^1.1.5",
     "react-flickity-component": "^3.2.0",
     "react-helmet": "^5.2.0",

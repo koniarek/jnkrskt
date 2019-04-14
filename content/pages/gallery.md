@@ -1,15 +1,14 @@
 ---
-template: ComponentsPage
+template: ComponentsPage2
 slug: gallery
-title: 
+title: Galeria
 featuredImage: 'https://ucarecdn.com/2e22b67f-82c4-4f43-a3f2-e1d266c9663d/'
-subtitle:
+subtitle: ''
 section1: >-
   ## This is a container component
 
   A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur
-  tincidunt nisi pulvinar rhyarn start
-  oncus a. Risus imperdiet taciti suspendisse facilisi
+  tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi
   a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
 
 
@@ -49,5 +48,5 @@ gallery:
     title: Yellow Ice Cream
 meta:
   description: This is a meta description.
-  title: Components Page
+  title: Galeria
 ---
