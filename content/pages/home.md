@@ -1,15 +1,21 @@
 ---
-
 template: HomePage
 slug: ''
-title: 
+title: a
 featuredImage: 'https://ucarecdn.com/2e22b67f-82c4-4f43-a3f2-e1d266c9663d/'
-subtitle: ''
+subtitle: a
+accordion:
+  - content: |
+      27.04.19 21:00
+      Poznań
+      Rozbrat
+    title: Pierwszy Koncert TNC Junkierap.pl
 meta:
-  description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  description: JUNKIE TO SEKTA
+  title: Junkierap.pl
 ---
+# Aktualności
 
 
-# Koncert 
 
+<https://youtu.be/oZt2bIaqzVI>
