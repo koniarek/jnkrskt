@@ -2,7 +2,7 @@ import React from 'react'
 
 export default ({
   className = '',
-  color = 'var(--secondary)',
+  color = 'var(--tncLean)',
   opacity = 0.2,
   ...props
 }) => (

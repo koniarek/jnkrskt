@@ -3,14 +3,14 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  border-bottom: 1px solid var(--secondary);
+  border-bottom: 2px solid var(--lightWhite);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
 }
 
 .Nav--Container {
   display: flex;
   align-items: center;
-  height: 7rem;
+  height: 8rem;
 }
 
 .Nav--Links {
@@ -25,16 +25,14 @@
 }
 
 .Nav .Logo {
-  margin-right: 2rem;
-  margin-left: 2rem;
+  margin-right: 3rem;
   position: relative;
-  float: left;
 }
 
 
 .Nav .Logo2 {
-  margin-right: 2rem;
-  margin-left: 2rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
   position: relative;
   float: right;
 }
@@ -68,7 +66,7 @@
 }
 
 .Nav--GroupParent {
-  padding-right: 2rem;
+  padding-right: 3rem;
 }
 
 .Nav--GroupParent::after {
@@ -98,7 +96,7 @@
 }
 
 .Nav--Group.active .Nav--GroupLinks {
-  max-height: 100vh;
+  max-height: 50vh;
   opacity: 1;
   transition: 0.6s ease all;
 }
@@ -111,10 +109,10 @@
 .Nav--GroupLink {
   display: block;
   position: relative;
-  width: 15rem;
+  width: 20rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .Nav--Container {
     display: flex;
   }

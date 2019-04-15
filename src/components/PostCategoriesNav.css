@@ -7,7 +7,7 @@
 }
 
 .PostCategoriesNav > * + * {
-  margin-left: 1rem;
+  margin-left: 3rem;
 }
 
 .PostCategoriesNav input[type='text'] {
@@ -29,7 +29,7 @@
   color: black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .PostCategoriesNav input[type='text'] {
     position: relative;
     width: 100%;

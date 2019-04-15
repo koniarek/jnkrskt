@@ -38,8 +38,8 @@
   left: 2rem;
   top: 1.5rem;
   transition: 0.3s ease all;
-  opacity: 0.8;
-  z-index: -1;
+  opacity: 1;
+  z-index: 1;
 }
 
 .Form--Input {
