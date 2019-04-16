@@ -8,37 +8,43 @@ meta:
   title: test meta title
 ---
 
-## This is the DefaultPage template
+  ## Junkie to Sekta
+  
+  ![Test Image](public/images/junkietosekta2.png)
 
-Paragraphs are separated by a blank line.
+ Sekta - jak podaje encyklopedia:
 
-The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.
 
-### Unordered lists:
+ 'Od łac. secta – kierunek, droga,  postępowanie, zasady, stronnictwo, nauka, 
+  od 'sequi' – iść za kimś, postępować, towarzyszyć.
+  Łacińskie. seco, secare – odcinać, odrąbywać, odcinać się odczegoś'.
 
-- this one
-- that one
-- the other one
 
-### Ordered lists:
+ W tym konkretnym wypadku to grupa izolująca się od społeczeństwa, a wręcz wypchnięta na margines. 
+Wyrzucona poza jego ramy. Junkie to sekta to już sztandarowy zwrot.
+ 
+_'Junkie to sekta chociaż nie było schizmy'_.Z obecną definicją sekty nie ma to wiele wspólnego.
 
-1.  first item
-1.  second item
-1.  third item
+- Nie mamy żadnej ideologii. 
+- Nie zmuszamy do wiary, bo żadnej nie mamy.
+- Nie jesteśmy żadnym rozłamem religijnym. 
+- Spora część z nas to agnostycy bądź ateiści.
+- Nie składamy ofiar w postaci dzieci ani nie zabijamy kotów. 
+- Nie pijemy krwii.Nikogo nie zachęcamy 'do wejścia' rozdając ulotki czy pukając do drzwi.
+- Nie mamy przywódcy.
+- Nie mamy hierarchii.
+- Nie mamy zasad.
 
-> Block quotes are written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+  Może poza wzajemnym szacunkiem i przestrzeganiem praw człowiekia.
+W tym konkretnym przypadku 'sekta' to ludzie słuchający junkie rapu,którego autorem jest TNC.
 
-# Heading 1
+  #### Ludzie utożsamiający się z jej przesłaniem.To otoczka wokół niszowej muzyki, która do bólu    pokazuje jak tragiczne w skutkach mogą być nałogi, jak łatwo można zniszczyć sobie życie przez narkotyki.
+  #### Nawołujemy do NIE ZAŻYWANIA substancji psychoaktywnych. Jakichkolwiek.
+ 
+  Jak autor mówi sam o sobie - _'outsider introwertyk pojeb bezprzyjaciół'.'Robię to dla odmieńców'>.'Robię to dla marginesu dla pojebów i dla psychopatów'._
+  
+    Z przymróżeniem oka, psychopatami też nie jesteśmy, częściej socjopatami.
+  To zgrupowanie ludzi z problemami najczęściej związanymi z używkami.To wąska grupa, która doskonale rozumie, co przeżywa autor, dając upust emocjom w swoich utworach.
+  
+  _'Nieliczne mordki znają moje wersy na pamięć i nie pytaj czy powodem,że przeszły to samo'.+
 
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6

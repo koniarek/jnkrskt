@@ -3666,6 +3666,11 @@ emotion@^9.1.2:
     babel-plugin-emotion "^9.2.11"
     create-emotion "^9.2.12"
 
+emotions@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/emotions/-/emotions-0.0.1.tgz#65c266fa0f27a9f320bf790a25f454687cf7562d"
+  integrity sha1-ZcJm+g8nqfMgv3kKJfRUaHz3Vi0=
+
 encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"

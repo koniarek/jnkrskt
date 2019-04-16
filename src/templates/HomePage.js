@@ -3,13 +3,12 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-import Accordion from '../components/Accordion'
 import BackgroundVideo from '../components/BackgroundVideo'
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, videoPoster,
+export const HomePageTemplate = ({ title, subtitle, featuredImage, section1,
+	                                 section2,  videoPoster,
 	                                 video,
-	                                 accordion,
 	                                 body, }) => (
   <main className="Home">
     <PageHeader
@@ -22,17 +21,24 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, videoPoster,
         <Content source={body} />
       </div>
     </section>
-      <section className="BackgroundVideo-section section">
+	  <section className="section">
+		  <div className="container">
+			  <Content source={section1} />
+		  </div>
+	  </section>
+
+	  <section className="section">
+		  <div className="container">
+			  <Content source={section2} />
+		  </div>
+	  </section>
+
+	  <section className="BackgroundVideo-section section">
 		  <BackgroundVideo poster={videoPoster}>
 			  {video && <source src={video} type="video/mp4" />}
 		  </BackgroundVideo>
 	  </section>
 
-	  <section className="section">
-		  <div className="container">
-			  <Accordion items={accordion} />
-		  </div>
-	  </section>
 
   </main>
 )
@@ -59,12 +65,10 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        section1,
+	      section2, 
         videoPoster
         video
-        accordion {
-          title
-          description
-        }
       }
     }
   }

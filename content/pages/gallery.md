@@ -17,6 +17,7 @@ section1: >-
   vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel
   bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt
   vestibulum.
+  
 section2: |-
   ## You can use videos, images and text.
 
@@ -24,18 +25,7 @@ section2: |-
   src="https://www.youtube.com/embed/Js00yn142ic" frameborder="0"
   allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-  ## Also background videos, with poster image support.
-video: 'https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/'
-videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
-accordion:
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
+  
 gallery:
   - alt: yellow rope image
     image: 'https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/'
