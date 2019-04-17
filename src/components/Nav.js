@@ -47,9 +47,6 @@ export default class Nav extends Component {
 						<NavLink to="/blog/" exact>
 							JUNKIE+WEAR
 						</NavLink>
-						<NavLink to="/gallery/" exact>
-							GALERIA
-						</NavLink>
 						<NavLink to="/contact/" exact>
 							WSPÓŁPRACA
 						</NavLink>
