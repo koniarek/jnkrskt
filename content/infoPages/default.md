@@ -4,8 +4,10 @@ slug: default
 title: JUNKIE TO SEKTA
 featuredImage: 'https://ucarecdn.com/2e22b67f-82c4-4f43-a3f2-e1d266c9663d/'
 meta:
-  description: test meta description
-  title: test meta title
+  canonicalLink: 'https://www.junkierap.pl/junkie-to-sekta'
+  description: ''
+  noindex: false
+  title: Junkie to Sekta
 ---
 ## Junkie to Sekta
 
