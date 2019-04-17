@@ -11,8 +11,6 @@ meta:
 ---
 ## Junkie to Sekta
 
-  
-
 ![](https://ucarecdn.com/c1d4544f-e591-4ff8-b4d1-feb44fcff8ef/-/preview/-/enhance/54/)
 
  **Sekta - jak podaje encyklopedia:**
@@ -37,14 +35,18 @@ _'Junkie to sekta chociaż nie było schizmy'_.Z obecną definicją sekty nie ma
 * Nie mamy zasad.
     Może poza wzajemnym szacunkiem i przestrzeganiem praw człowiekia.
   W tym konkretnym przypadku 'sekta' to ludzie słuchający junkie rapu,którego autorem jest TNC.
-  #### Ludzie utożsamiający się z jej przesłaniem.To otoczka wokół niszowej muzyki, która do bólu    pokazuje jak tragiczne w skutkach mogą być nałogi, jak łatwo można zniszczyć sobie życie przez narkotyki.
-  #### Nawołujemy do NIE ZAŻYWANIA substancji psychoaktywnych. Jakichkolwiek.
+
+![](https://ucarecdn.com/5346fc7b-fc2b-49c3-89e2-92a01c9e129f/)
+
+#### Ludzie utożsamiający się z jej przesłaniem.To otoczka wokół niszowej muzyki, która do bólu pokazuje jak tragiczne w skutkach mogą być nałogi, jak łatwo można zniszczyć sobie życie przez narkotyki.
+
+#### Nawołujemy do NIE ZAŻYWANIA substancji psychoaktywnych. Jakichkolwiek.
 
 
 
   Jak autor mówi sam o sobie - _'outsider introwertyk pojeb bezprzyjaciół' .'Robię to dla odmieńców ''Robię to dla marginesu dla pojebów i dla psychopatów'._
 
-\    Z przymróżeniem oka, psychopatami też nie jesteśmy, częściej socjopatami.
+  Z przymróżeniem oka, psychopatami też nie jesteśmy, częściej socjopatami.
 
 ![](https://ucarecdn.com/7abb5420-aa7c-4127-b38e-be115853caf4/-/preview/-/enhance/55/)
 
