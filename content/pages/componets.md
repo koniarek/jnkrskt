@@ -1,32 +1,62 @@
 ---
 template: ComponentsPage
 slug: components
-title: 
-featuredImage: 'https://ucarecdn.com/7d7cf790-7ef0-40b1-aee5-e623a97c46b2/junkierap.png'
-subtitle: ''
-section1: >-
-  ## This is a container component
+title: J
+featuredImage: 'https://ucarecdn.com/e4469c8b-a579-4282-93cf-3670d88872d3/'
+subtitle: R
+section1: |-
+  # **JUNKIE RAP**
 
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur
-  tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi
-  a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
+  ****
+
+  *  Coś więcej niż sam rap, zalążek nowego, niezaleznego nurtu.
+  *   Poniżej cała dotychczsowa dyskografia TNC.                     
 
 
-  [Dictumst a ultrices mi]() a dignissim ad fermentum eget a nam et a blandit
-  scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam
-  vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel
-  bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt
-  vestibulum.
-section2: |-
-  ## You can use videos, images and text.
+  ```
+                                                                                                                                                                                              
+  ```
+section2: >-
+  # Politoksykomania
+
+
+  * [Płyta do pobrania za darmo](http://uploadfile.pl/pokaz/1709426---dalk.html)
+
+  * Data wydania 2017r.
+
+  * _Rap Tonciu  \ Produkcja Pawloom_
+
+
+  Lista Utworów:
+
+
+  1. Schody do nieba 
+
+  2. To ma być nieprzystępne
+
+  3. Wracam do żywych jakbym wstawał z martwych
+
+  4. Heparyna
+
+  5. Dla ciebie nie ma już ratunku
+
+  6. Nie potrafię latać 
+
+  7. Opiowraki jak voodoo
+
 
   <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/Js00yn142ic" frameborder="0"
-  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/oZt2bIaqzVI?controls=0" frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope;
+  picture-in-picture" allowfullscreen></iframe>
 
-  ## Also background videos, with poster image support.
-video: 'https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/'
-videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
+
+  ## 
+
+
+  ![](https://ucarecdn.com/2982ee18-d55e-4c79-9b89-1da0776b85e6/)
+video: 'https://ucarecdn.com/e06015df-0a53-4e3d-bff4-b192fdf493cb/'
+videoPoster: 'https://ucarecdn.com/30b1fc58-2dc8-48d3-bda4-7fd335de152c/'
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
@@ -48,5 +78,6 @@ gallery:
     title: Yellow Ice Cream
 meta:
   description: This is a meta description.
-  title: Components Page
+  title: Junkie Rap
 ---
+
