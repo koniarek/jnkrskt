@@ -16,9 +16,3 @@ section1: >-
   ####[27.04.19 Pierwszy Koncert TNC Junkierap.pl](https://www.facebook.com/events/rozbrat/pierwszy-w-historii-koncert-tnc-junkierappl-junkie-sekta/2438855859481055/)
   #####21:00 - Poznań - Rozbrat
 
-
-section2: |-
-
-
-
-videoPoster: 'https://youtu.be/oZt2bIaqzVI'
