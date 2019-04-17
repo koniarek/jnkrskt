@@ -4,7 +4,7 @@ title: Cru Nek JNKWR Róż
 status: Published
 date: '2018-03-28'
 featuredImage: 'https://ucarecdn.com/be9eea4f-3b8b-484c-9a9a-6d3b9b9bc2da/'
-excerpt: This is an excerpt of Post Two
+excerpt: 'Cru Nek Róż '
 categories:
   - category: JNKWR
 meta:
