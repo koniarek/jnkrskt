@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: 
-featuredImage: 'https://ucarecdn.com/2e22b67f-82c4-4f43-a3f2-e1d266c9663d/'
+featuredImage: 'https://ucarecdn.com/06dcffb1-ac71-417c-a0c3-c9dfc2d3b8c2/'
 subtitle: ''
 address: 'Traphouse, Chorzów, Polska'
 phone: 666

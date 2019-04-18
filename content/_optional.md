@@ -4,7 +4,7 @@ meta:
   description: ''
   noindex: false
   title: ''
-featuredImage: 'https://ucarecdn.com/3ce1b407-7d43-413f-a45a-c0699ede8f8b/'
+featuredImage: 'https://ucarecdn.com/06dcffb1-ac71-417c-a0c3-c9dfc2d3b8c2/'
 gallery:
   - alt: ''
     image: ''

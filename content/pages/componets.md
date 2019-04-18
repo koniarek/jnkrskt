@@ -2,7 +2,7 @@
 template: ComponentsPage
 slug: components
 title: J
-featuredImage: 'https://ucarecdn.com/e4469c8b-a579-4282-93cf-3670d88872d3/'
+featuredImage: 'https://ucarecdn.com/06dcffb1-ac71-417c-a0c3-c9dfc2d3b8c2/'
 subtitle: R
 section1: |-
   # **JUNKIE RAP**
