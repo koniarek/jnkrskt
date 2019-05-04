@@ -5,17 +5,11 @@ title: J
 featuredImage: 'https://ucarecdn.com/06dcffb1-ac71-417c-a0c3-c9dfc2d3b8c2/'
 subtitle: R
 section1: |-
+
   # **JUNKIE RAP**
 
-  ****
-
-  *  Coś więcej niż sam rap, zalążek nowego, niezaleznego nurtu.
-  *   Poniżej cała dotychczsowa dyskografia TNC.                     
 
 
-  ```
-                                                                                                                                                                                              
-  ```
 section2: >-
   ![](https://ucarecdn.com/060eee8c-d322-4261-af93-bf55e96791bb/-/crop/914x800/0,0/-/preview/)
 
