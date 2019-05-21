@@ -1,5 +1,5 @@
 ---
-template: SinglePost
+template: SingleProduct
 title: Hudi JNK+WR
 status: Published
 date: '2018-05-25'

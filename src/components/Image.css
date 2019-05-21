@@ -1,11 +1,15 @@
 .Image {
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+}
+
+.cover {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .BackgroundImage {
-  max-width: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -13,26 +17,12 @@
   right: 0;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: black;
   overflow: hidden;
 }
 
 .BackgroundImage .Image {
-  background-color: black;
-  max-width: 100%;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-}
-
-.LazyImage {
-  max-width: 100%;
-  opacity: 0;
-  transition: ease all 0.3s;
-}
-
-.LazyImage.faded {
-  max-width: 100%;
-  opacity: 1;
 }

@@ -41,11 +41,14 @@ export default class Nav extends Component {
 						<NavLink to="/default/" exact>
 							JUNKIE TO SEKTA
 						</NavLink>
-						<NavLink to="/components/" exact>
-							JUNKIE RAP
-						</NavLink>
-						<NavLink to="/blog/" exact>
+						<NavLink to="/products/" exact>
 							JUNKIE+WEAR
+							<NavLink to="/blog/" exact>
+								JUNKIE RAP
+							</NavLink>
+						</NavLink>
+						<NavLink to="/components/" exact>
+							GALERIA
 						</NavLink>
 						<NavLink to="/contact/" exact>
 							WSPÓŁPRACA

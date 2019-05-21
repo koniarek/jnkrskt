@@ -1,9 +1,11 @@
 ---
-template: SinglePost
+template: SingleProduct
 title: Cru Nek JNKWR Róż
 status: Published
 date: '2018-03-28'
-featuredImage: 'https://ucarecdn.com/be9eea4f-3b8b-484c-9a9a-6d3b9b9bc2da/'
+featuredImage: >-
+  https://ucarecdn.com/06dcffb1-ac71-417c-a0c3-c9dfc2d3b8c2/
+---
 excerpt: 'Cru Nek Róż '
 categories:
   - category: JNKWR

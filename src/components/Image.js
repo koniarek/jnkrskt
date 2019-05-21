@@ -1,15 +1,12 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
-import Observer from './Observer'
+
+// import 'intersection-observer'
+// import Observer from '@researchgate/react-intersection-observer'
 
 import './Image.css'
 
 class Image extends React.Component {
-  constructor(props) {
-    super(props)
-    this.ref = React.createRef()
-  }
-
   imageSizes = [
     '320',
     '450',
@@ -21,138 +18,97 @@ class Image extends React.Component {
     '1200',
     '1500',
     '1600',
-    '2000',
-     '2400'
-  ] // image sizes used for image source sets
+    '2000'
+  ] // image siezes used for image source sets
 
-  state = {
-    isIntersecting: false
-  }
+  // state = {
+  //   isIntersecting: false
+  // }
+  //
+  // handleIntersection = e => {
+  //   console.log(e.isIntersecting)
+  //   if (e.isIntersecting) {
+  //     this.setState({ isIntersecting: true })
+  //   }
+  // }
 
-  handleIntersection = e => {
-    if (e.isIntersecting) {
-      this.setState({ isIntersecting: true })
-    }
-  }
-
-  checkIsUploadcare(src) {
-    return typeof src === 'string' && src.includes('ucarecdn.com')
-  }
-
-  getResolutionString(res) {
-    /* add resolutions options for inline images */
-    if (res === 'small') {
-      res = '800x'
-    } else if (res === 'medium') {
-      res = '1000x'
-    } else if (res === 'large') {
-      res = '2000x'
-    }
-    return res
+  checkIfIsLocalSrc(src) {
+    if (typeof src === 'string' && src.includes('ucarecdn.com')) return false
+    return true
   }
 
   render() {
     let {
       background,
-      backgroundSize = 'contain',
+      backgroundSize = 'cover',
       resolutions = '1000x',
       className = '',
       src,
       secSet = '',
       fullSrc,
-      smallSrc,
+      // smallSrc,
       onClick,
-      alt = '',
-      lazy = true
+      alt = ''
     } = this.props
 
-    const isUploadcare = this.checkIsUploadcare(src),
-      fullImage = !isUploadcare || !lazy
-
+    const isLocalImg = this.checkIfIsLocalSrc(src)
     /* create source set for images */
-    if (isUploadcare) {
+    if (!isLocalImg) {
       secSet = this.imageSizes.map(size => {
         return `${src}-/progressive/yes/-/format/auto/-/preview/${size}x${size}/-/quality/lightest/${size}.jpg ${size}w`
       })
     }
 
-    fullSrc = `${src}${
-      isUploadcare
-        ? '-/progressive/yes/-/format/auto/-/resize/' +
-          this.getResolutionString(resolutions) +
-          '/'
-        : ''
-    }`
-    smallSrc = `${src}${
-      isUploadcare ? '-/progressive/yes/-/format/auto/-/resize/10x/' : ''
-    }`
+    /* add resolutions options for inline images */
+    if (resolutions === 'small') {
+      resolutions = '800x'
+    } else if (resolutions === 'medium') {
+      resolutions = '1000x'
+    } else if (resolutions === 'large') {
+      resolutions = '2000x'
+    }
 
-    let style = {}
+    fullSrc = `${src}${
+      isLocalImg
+        ? ''
+        : '-/progressive/yes/-/format/auto/-/resize/' + resolutions + '/'
+    }`
+    // smallSrc = `${src}${
+    //   isLocalImg ? '' : '-/progressive/yes/-/format/auto/-/resize/10x/'
+    // }`
+
     if (background) {
+      let style = {}
       style = {
-        backgroundImage: `url(${
-          this.state.isIntersecting ? fullSrc : smallSrc
-        })`,
+        // backgroundImage: `url(${
+        //   this.state.isIntersecting ? fullSrc : smallSrc
+        // })`,
+        backgroundImage: `url(${fullSrc})`,
         backgroundSize
       }
+      return (
+        // <Observer onChange={this.handleIntersection}>
+        <div
+          className={`BackgroundImage absolute ${className}`}
+          style={style}
+        />
+        // </Observer>
+      )
     }
 
     return (
-      <Fragment>
-        {isUploadcare && lazy && (
-          <Observer onChange={this.handleIntersection}>
-            <div
-              className="BackgroundImage"
-              ref={this.ref}
-              style={{
-                backgroundImage: `url(${smallSrc})`,
-                backgroundSize: 'cover'
-              }}
-            >
-              {!background && (
-                <img
-                  className={`LazyImage ${
-                    className + this.state.isIntersecting ? ' faded' : ''
-                  }`}
-                  src={this.state.isIntersecting ? fullSrc : ''}
-                  srcSet={this.state.isIntersecting ? secSet : ''}
-                  sizes={'100vw'}
-                  onClick={onClick}
-                  alt={alt}
-                />
-              )}
-              {background && (
-                <div
-                  className={`LazyImage BackgroundImage absolute ${
-                    className + this.state.isIntersecting ? ' faded' : ''
-                  }`}
-                  style={style}
-                />
-              )}
-            </div>
-          </Observer>
-        )}
-        {fullImage && (
-          <Fragment>
-            {background && (
-              <div
-                className={`BackgroundImage absolute ${className}`}
-                style={style}
-              />
-            )}
-            {!background && (
-              <img
-                className={`${className}`}
-                src={fullSrc}
-                srcSet={secSet}
-                sizes={'100vw'}
-                onClick={onClick}
-                alt={alt}
-              />
-            )}
-          </Fragment>
-        )}
-      </Fragment>
+      // <Observer onChange={this.handleIntersection}>
+      <img
+        className={`LazyImage ${className}`}
+        src={fullSrc}
+        srcSet={secSet}
+        // src={this.state.isIntersecting ? fullSrc : smallSrc}
+        // srcSet={this.state.isIntersecting ? secSet : ''}
+        sizes={'100vw'}
+        onClick={onClick}
+        alt={alt}
+      />
+      // </Observer>
     )
   }
 }

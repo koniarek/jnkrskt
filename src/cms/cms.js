@@ -4,12 +4,12 @@ import './cms-utils'
 
 import { HomePageTemplate } from '../templates/HomePage'
 import { ComponentsPageTemplate } from '../templates/ComponentsPage'
-import { ComponentsPage2Template } from '../templates/ComponentsPage2'
 import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
-
+import { ProductIndexTemplate }from '../templates/ProductIndex'
+import { SingleProductTemplate } from '../templates/SingleProduct'
 if (
   window.location.hostname === 'localhost' &&
   window.localStorage.getItem('netlifySiteURL')
@@ -27,18 +27,21 @@ CMS.registerPreviewTemplate('home-page', ({ entry }) => (
 CMS.registerPreviewTemplate('components-page', ({ entry }) => (
   <ComponentsPageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('jnkrap-page', ({ entry }) => (
-	<ComponentsPage2Template {...entry.toJS().data} />
-))
 CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
   <ContactPageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('SektaPages', ({ entry }) => (
+CMS.registerPreviewTemplate('infoPages', ({ entry }) => (
   <DefaultPageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('jnkwr-page', ({ entry }) => (
+CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
   <BlogIndexTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('products', ({ entry }) => (
+CMS.registerPreviewTemplate('posts', ({ entry }) => (
   <SinglePostTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('products-page', ({ entry }) => (
+  <ProductIndexTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('products', ({ entry }) => (
+  <SingleProductTemplate {...entry.toJS().data} />
 ))
