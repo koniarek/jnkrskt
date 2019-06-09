@@ -20,7 +20,7 @@ const SocialLink = styled.a`
 export default function Socials() {
 	return (
 		<Wrapper>
-			<SocialLink href="https://www.facebook.com/tonciurap" target="blank" rel="noopener noreferrer">
+			<SocialLink href="https://www.facebook.com/tonciujunkierap/" target="blank" rel="noopener noreferrer">
 				<FaFacebookSquare />
 			</SocialLink>
 
