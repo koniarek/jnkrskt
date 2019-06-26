@@ -13,9 +13,7 @@ export const query = graphql`
   fragment Gallery on MarkdownRemark {
     frontmatter {
       gallery {
-        alt
         image
-        title
       }
     }
   }
@@ -81,14 +79,13 @@ export default class Gallery extends Component {
               {images.map((image, index) => (
                 <figure
                   className="Gallery--Item"
-                  key={_kebabCase(image.alt) + '-' + index}
+                  key={_kebabCase(image.title) + '-' + index}
                   onClick={() => this.isOpen(true, index)}
                 >
                   <div>
                     <Image
                       resolutions="small"
                       src={image.image}
-                      alt={image.alt}
                     />
                   </div>
                   {image.title && <figcaption>{image.title}</figcaption>}

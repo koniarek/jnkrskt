@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import BackgroundVideo from '../components/BackgroundVideo'
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, featuredImage, videoPoster, video, body, }) => (
+export const HomePageTemplate = ({ title, featuredImage, video, body, }) => (
   <main className="Home">
     <PageHeader
       title={title}
@@ -20,9 +20,7 @@ export const HomePageTemplate = ({ title, featuredImage, videoPoster, video, bod
 
 
 	  <section className="BackgroundVideo-section section">
-	  <BackgroundVideo poster={videoPoster}>
-		  {video && <source src={video} type="video/mp4" />}
-	  </BackgroundVideo>
+	  <BackgroundVideo />
      </section>
 
 
@@ -50,8 +48,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         featuredImage
-        videoPoster
-        video
       }
     }
   }
