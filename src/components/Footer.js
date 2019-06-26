@@ -25,7 +25,7 @@ const Footer = () => (
 			<Socials />
 		</SocialWrap>
 		<span>
-		    <FaEnvelopeSquare/> tedoendoce@gmail.com <br/>
+		    <FaEnvelopeSquare/> mailto:tedoendoce@gmail.com <br/>
 		    | MILLENIUM BANK : 51 1160 2202 0000 0002 6070 5913 | <br/>
         </span>
 		<p>
