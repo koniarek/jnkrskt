@@ -1,8 +1,8 @@
+/* eslint-disable */
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
-
 import './Form.css'
 
 class Form extends React.Component {

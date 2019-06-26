@@ -27,8 +27,6 @@ const Footer = () => (
 		<span>
 		    <FaEnvelopeSquare/> tedoendoce@gmail.com <br/>
 		    | MILLENIUM BANK : 51 1160 2202 0000 0002 6070 5913 | <br/>
-
-NA - ROZWÓJ, MIX WOKALI, PŁYTY, INWESTYCJE W SIEBIE, LEPSZY SPRZĘT, LEPSZE BRZMIENIE, ORGANIZACJĘ KONCERTÓW, DZIARY, MANDATY, ODWYKI, TERAPIE, SZLUGI, JEDZENIE, PICIE, PALIWO NA DOJAZDY NA PROGRAM METADONOWY, PCHANIE TEGO DO PRZODU I RKTK  |
         </span>
 		<p>
 			<FaCopyright /> Copyright {new Date().getFullYear()}.  @Tedoendoce Junkierap | All rights reserved. Developed by{' '}

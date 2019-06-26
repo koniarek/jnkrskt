@@ -36,16 +36,13 @@ export default class Nav extends Component {
 					</Link>
 					<div className="Nav--Links">
 						<NavLink to="/" exact>
-							AKTUALNOŚCI
-						</NavLink>
-						<NavLink to="/default/" exact>
-							JUNKIE TO SEKTA
-						</NavLink>
-						<NavLink to="/components/" exact>
-							JUNKIE RAP
+							NEWS
 						</NavLink>
 						<NavLink to="/blog/" exact>
-							JUNKIE+WEAR
+							MERCH
+						</NavLink>
+						<NavLink to="/components/" exact>
+							SEKTA
 						</NavLink>
 						<NavLink to="/contact/" exact>
 							WSPÓŁPRACA
