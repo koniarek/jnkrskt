@@ -26,10 +26,10 @@ const Footer = () => (
 		</SocialWrap>
 		<span>
 		    <FaEnvelopeSquare/> mailto:tedoendoce@gmail.com <br/>
-		    | MILLENIUM BANK : 51 1160 2202 0000 0002 6070 5913 | <br/>
-        </span>
+		    | millennium | 51 1160 2202 0000 0002 6070 5913 | tedoendoce | junkierap | sekta | <br/>
+                 </span>
 		<p>
-			<FaCopyright /> Copyright {new Date().getFullYear()}.  @Tedoendoce Junkierap | All rights reserved. Developed by{' '}
+			<FaCopyright /> Copyright {new Date().getFullYear()}. junkierap.pl | All rights reserved. Developed by{' '}
 			<a href="https://skwebarchitecture.com/">Szymon Koniarek</a>.
 		</p>
 	</FooterWrap>
