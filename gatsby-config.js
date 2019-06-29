@@ -113,9 +113,9 @@ module.exports = {
       resolve: 'gatsby-plugin-nprogress',
       options: {
         // Setting a color is optional.
-        color: 'white',
+        color: 'transparent',
         // Disable the loading spinner.
-        showSpinner: false
+        showLoader: true
       }
     },
     'gatsby-plugin-sitemap',

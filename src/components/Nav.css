@@ -1,6 +1,9 @@
 .Nav {
   background: #000000;
   position: sticky;
+  alignment: center;
+  align-content: center;
+  align-items: center;
   top: 0;
   z-index: 1;
   border-bottom: 2px solid transparent;

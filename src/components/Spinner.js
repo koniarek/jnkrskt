@@ -1,14 +1,9 @@
 import React from 'react'
-import './Spinner.css'
+import GatsbyImage from 'gatsby-image';
+
 
 export default () => (
   <div className='Spinner'>
-    <div className='semipolar-spinner'>
-      <div className='ring' />
-      <div className='ring' />
-      <div className='ring' />
-      <div className='ring' />
-      <div className='ring' />
-    </div>
+      <img src='/static/img/loader.gif'></img>
   </div>
 )

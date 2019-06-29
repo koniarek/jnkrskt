@@ -22,7 +22,7 @@ class Image extends React.Component {
     '1500',
     '1600',
     '2000',
-     '2400'
+    '2400'
   ] // image sizes used for image source sets
 
   state = {
@@ -67,7 +67,7 @@ class Image extends React.Component {
     } = this.props
 
     const isUploadcare = this.checkIsUploadcare(src),
-      fullImage = !isUploadcare || !lazy
+        fullImage = !isUploadcare || !lazy
 
     /* create source set for images */
     if (isUploadcare) {
@@ -77,82 +77,82 @@ class Image extends React.Component {
     }
 
     fullSrc = `${src}${
-      isUploadcare
-        ? '-/progressive/yes/-/format/auto/-/resize/' +
-          this.getResolutionString(resolutions) +
-          '/'
-        : ''
-    }`
+        isUploadcare
+            ? '-/progressive/yes/-/format/auto/-/resize/' +
+            this.getResolutionString(resolutions) +
+            '/'
+            : ''
+        }`
     smallSrc = `${src}${
-      isUploadcare ? '-/progressive/yes/-/format/auto/-/resize/10x/' : ''
-    }`
+        isUploadcare ? '-/progressive/yes/-/format/auto/-/resize/10x/' : ''
+        }`
 
     let style = {}
     if (background) {
       style = {
         backgroundImage: `url(${
-          this.state.isIntersecting ? fullSrc : smallSrc
-        })`,
+            this.state.isIntersecting ? fullSrc : smallSrc
+            })`,
         backgroundSize
       }
     }
 
     return (
-      <Fragment>
-        {isUploadcare && lazy && (
-          <Observer onChange={this.handleIntersection}>
-            <div
-              className="BackgroundImage"
-              ref={this.ref}
-              style={{
-                backgroundImage: `url(${smallSrc})`,
-                backgroundSize: 'cover'
-              }}
-            >
-              {!background && (
-                <img
-                  className={`LazyImage ${
-                    className + this.state.isIntersecting ? ' faded' : ''
-                  }`}
-                  src={this.state.isIntersecting ? fullSrc : ''}
-                  srcSet={this.state.isIntersecting ? secSet : ''}
-                  sizes={'100vw'}
-                  onClick={onClick}
-                  alt={alt}
-                />
-              )}
-              {background && (
+        <Fragment>
+          {isUploadcare && lazy && (
+              <Observer onChange={this.handleIntersection}>
                 <div
-                  className={`LazyImage BackgroundImage absolute ${
-                    className + this.state.isIntersecting ? ' faded' : ''
-                  }`}
-                  style={style}
-                />
-              )}
-            </div>
-          </Observer>
-        )}
-        {fullImage && (
-          <Fragment>
-            {background && (
-              <div
-                className={`BackgroundImage absolute ${className}`}
-                style={style}
-              />
-            )}
-            {!background && (
-              <img
-                className={`${className}`}
-                src={fullSrc}
-                srcSet={secSet}
-                sizes={'100vw'}
-                onClick={onClick}
-                alt={alt}
-              />
-            )}
-          </Fragment>
-        )}
-      </Fragment>
+                    className="BackgroundImage"
+                    ref={this.ref}
+                    style={{
+                      backgroundImage: `url(${smallSrc})`,
+                      backgroundSize: 'cover'
+                    }}
+                >
+                  {!background && (
+                      <img
+                          className={`LazyImage ${
+                              className + this.state.isIntersecting ? ' faded' : ''
+                              }`}
+                          src={this.state.isIntersecting ? fullSrc : ''}
+                          srcSet={this.state.isIntersecting ? secSet : ''}
+                          sizes={'100vw'}
+                          onClick={onClick}
+                          alt={alt}
+                      />
+                  )}
+                  {background && (
+                      <div
+                          className={`LazyImage BackgroundImage absolute ${
+                              className + this.state.isIntersecting ? ' faded' : ''
+                              }`}
+                          style={style}
+                      />
+                  )}
+                </div>
+              </Observer>
+          )}
+          {fullImage && (
+              <Fragment>
+                {background && (
+                    <div
+                        className={`BackgroundImage absolute ${className}`}
+                        style={style}
+                    />
+                )}
+                {!background && (
+                    <img
+                        className={`${className}`}
+                        src={fullSrc}
+                        srcSet={secSet}
+                        sizes={'100vw'}
+                        onClick={onClick}
+                        alt={alt}
+                    />
+                )}
+              </Fragment>
+          )}
+        </Fragment>
     )
   }
 }

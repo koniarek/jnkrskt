@@ -1,16 +1,12 @@
 ---
 template: ComponentsPage
-slug: components
+slug: sekta
 title: Sekta
-featuredImage: 'https://ucarecdn.com/06dcffb1-ac71-417c-a0c3-c9dfc2d3b8c2/'
+featuredImage: 'https://ucarecdn.com/6901fefc-3371-457a-acfe-1abe4bea6494/'
 section1: >-
  
-  ##### Junkie to sekta chociaż nie było schizmy'
-
-  <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/d-3UVxWDSjw" frameborder="0"
-  allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+ <h2 style="text-align: center;">junkie to sekta chociaż nie było schizmy</h2>
+   
 gallery:
   - title: ufo
     image: 'https://ucarecdn.com/dc707a5a-37bd-48bb-addb-b1e9b6e106a5/'
@@ -23,7 +19,7 @@ gallery:
 
 meta:
   description: This is a meta description.
-  title: Components Page
+  title: Sekta Page
 ---
 
 

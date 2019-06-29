@@ -1,16 +1,16 @@
 .PageHeader {
   background-color: black;
-  color: transparent;
-  padding: 15rem 0;
+  color: darkred;
+  padding: 3rem 0;
 }
 
-.PageHeader .BackgroundImage {
+.PageHeader .BackgroundColor {
   opacity: 1;
   background-color: #000000;
 }
 
-.PageHeader-large {
-  padding: 20rem 0;
+.PageHeader-medium {
+  padding: 3rem 0;
 }
 
 .PageHeader--Title {
@@ -19,7 +19,7 @@
 }
 
 .PageHeader--Subtitle {
-  font-weight: 100;
+  font-weight: normal;
   font-size: 0rem;
   color: transparent;
 }
@@ -28,11 +28,11 @@
   animation: fadeIn 0.5s ease-out;
 }
 
-@media (max-width: 800px) {
+@media (max-width:30px) {
   .PageHeader {
-    padding: 7rem 0;
+    padding: 3rem 0;
   }
-  .PageHeader-large {
-    padding: 12.5rem 0;
+  .PageHeader-medium {
+    padding: 1rem 0;
   }
 }

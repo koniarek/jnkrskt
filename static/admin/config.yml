@@ -137,17 +137,17 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-      - file: 'content/pages/componets.md'
-        label: 'Componets Page'
-        name: 'componets-page'
+      - file: 'content/pages/sekta.md'
+        label: 'Sekta Page'
+        name: 'sekta-page'
         fields:
           - {
               label: Template,
               name: template,
               widget: hidden,
-              default: ComponetsPage,
+              default: SektaPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'componets' }
+          - { label: Slug, name: slug, widget: hidden, default: 'sekta' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }

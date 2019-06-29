@@ -1,7 +1,5 @@
 import React from 'react'
-import { MapPin, Smartphone, Mail } from 'react-feather'
 import { graphql } from 'gatsby'
-
 import PageHeader from '../components/PageHeader'
 import FormSimpleAjax from '../components/FormSimpleAjax'
 import Content from '../components/Content'
@@ -14,9 +12,6 @@ export const ContactPageTemplate = ({
   title,
   subtitle,
   featuredImage,
-  address,
-  phone,
-  email,
 }) => (
   <main className="Contact">
     <PageHeader
@@ -26,34 +21,8 @@ export const ContactPageTemplate = ({
     />
     <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container">
-        <div>
           <Content source={body} />
-          <div className="Contact--Details">
-             {address && (
-              <a
-                className="Contact--Details--Item"
-                href={`https://goo.gl/maps/YDDzS53tSZ22
-                `}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MapPin /> {address}
-              </a>
-            )}
-            {phone && (
-              <a className="Contact--Details--Item" href={`tel:${666}`}>
-                <Smartphone /> {phone}
-              </a>
-            )}
-            {email && (
-              <a className="Contact--Details--Item" href={`mailto:${'tedoendoce@gmail.com'}`}>
-                <Mail /> {email}
-              </a>
-            )}
-          </div>
-        </div>
-
-        <div>
+        <div className="Contact-Form-Alignment">
           <FormSimpleAjax name="Simple Form Ajax" />
         </div>
       </div>
@@ -81,11 +50,7 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        featuredImage
-        address
-        phone
-        email
-      
+        featuredImage 
       }
     }
   }

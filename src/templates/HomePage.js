@@ -12,7 +12,7 @@ export const HomePageTemplate = ({ title, featuredImage, video, body, }) => (
       title={title}
       backgroundImage={featuredImage}
     />
-    <section className="section">
+    <section className="section" alignment="center">
       <div className="container">
         <Content source={body} />
       </div>

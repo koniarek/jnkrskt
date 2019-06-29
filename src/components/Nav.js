@@ -8,15 +8,15 @@ import './Nav.css'
 export default class Nav extends Component {
 	state = {
 		active: false
-	}
+	};
 
-	handleMenuToggle = () => this.setState({ active: !this.state.active })
+	handleMenuToggle = () => this.setState({ active: !this.state.active });
 
 	// Only close nav if it is open
-	handleLinkClick = () => this.state.active && this.handleMenuToggle()
+	handleLinkClick = () => this.state.active && this.handleMenuToggle();
 
 	render() {
-		const { active } = this.state
+		const { active } = this.state;
 
 		const NavLink = ({ className, children, ...props }) => (
 			<Link
@@ -26,7 +26,7 @@ export default class Nav extends Component {
 			>
 				{children}
 			</Link>
-		)
+		);
 
 		return (
 			<nav className={`Nav ${active ? 'Nav-active' : ''}`}>
@@ -38,14 +38,11 @@ export default class Nav extends Component {
 						<NavLink to="/" exact>
 							NEWS
 						</NavLink>
-						<NavLink to="/blog/" exact>
+						<NavLink to="/merch/" exact>
 							MERCH
 						</NavLink>
-						<NavLink to="/components/" exact>
+						<NavLink to="/sekta/" exact>
 							SEKTA
-						</NavLink>
-						<NavLink to="/contact/" exact>
-							WSPÓŁPRACA
 						</NavLink>
 					</div>
 					<button

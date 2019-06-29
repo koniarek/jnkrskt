@@ -30,7 +30,6 @@ export const ComponentsPageTemplate = ({
 
         <section className="section">
             <div className="container">
-                <h2>| SEKTA | JNK+WR|</h2>
                 <Gallery images={gallery} />
             </div>
         </section>

@@ -35,4 +35,7 @@
   .Contact--Section1--Container > * {
     width: calc(50% - 2rem);
   }
+  .Contact-Form-Alignment {
+    alignment: center;
+  }
 }

@@ -7,7 +7,7 @@ import './Form.css'
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'Współpraca',
+    name: 'Kontakt',
     subject: '', // optional subject of the notification email
     action: 'mailto:${\'szymon.koniarek@gmail.com\'}',
     successMessage: 'Dzięki za wiadomość, odpowiem wkrótce',
@@ -62,7 +62,7 @@ class Form extends React.Component {
 	        <script src={`https://www.google.com/recaptcha/api.js`} async defer></script>
         </Helmet>
         <form
-          className="Współpraca"
+          className="Kontakt"
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
