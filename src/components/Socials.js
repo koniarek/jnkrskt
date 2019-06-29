@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import './Layout.js'
-import { FaInstagram, FaFacebookSquare, FaYoutubeSquare, FaSoundcloud, FaPaperPlane } from 'react-icons/fa'
+import { FaInstagram, FaFacebookSquare, FaYoutubeSquare, FaSoundcloud } from 'react-icons/fa'
 
 const Wrapper = styled.div`
   display: flex;
@@ -34,8 +34,6 @@ export default function Socials() {
 
 		<SocialLink href="https://soundcloud.com/tonciu" target="blank" rel="noopener noreferrer">
 			<FaSoundcloud/>
-		</SocialLink>
-		<SocialLink href="/contact/" target="blank" rel="noopener noreferrer"> <FaPaperPlane/>
 		</SocialLink>
 	</Wrapper>
 }
