@@ -8,7 +8,7 @@ meta:
   title: Junkierap.pl
 ---
 
-<h2 style="text-align: center;">#strona w budowie</h2>
+<h2 style="text-align: center;"> strona w budowie </h2>
 
 
 

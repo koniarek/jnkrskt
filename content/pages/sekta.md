@@ -4,9 +4,7 @@ slug: sekta
 title: Sekta
 featuredImage: 'https://ucarecdn.com/6901fefc-3371-457a-acfe-1abe4bea6494/'
 section1: >-
- 
- <h2 style="text-align: center;">junkie to sekta chociaż nie było schizmy</h2>
-   
+     <h2 style="text-align: center;">'junkie to sekta chociaż nie było schizmy'</h2>
 gallery:
   - title: ufo
     image: 'https://ucarecdn.com/dc707a5a-37bd-48bb-addb-b1e9b6e106a5/'
@@ -21,5 +19,3 @@ meta:
   description: This is a meta description.
   title: Sekta Page
 ---
-
-
